@@ -1,0 +1,219 @@
+=======================================
+	Question Parser Output
+=======================================
+Last updated: 9/24/2019
+
+
+
+1. What prefix is used to access encrypted KVM fields?
+
+2. What will happen if the Cache and KVM have the same key name to store a value?
+
+3. What of the following are true for SAML tokens (Pick 2)
+
+4. What of the following are properties of Opaque Tokens? (Pick 2)
+
+5. (MULTI) Which techniques are used to dynamically choose the target endpoint
+
+6. Which plugin is provided by default in the Apigee Microgateway?
+
+7. How do you define custom object in OpenAPISpec 2.0?
+
+8. What can be done using Apigee-Access NPM module?
+
+9. Which HTTP Method should not be used for HTTP CRUD operations?
+
+10. Which OAuth2.0 Grant Type requires redirection
+
+11. You have a Javascript policy with the following code:
+
+12. What does the variable message.content represent?
+
+13. Which proxy endpoint configuration determines what target endpoint is invoked
+
+14. What is Apigee's recommended versioning strategy?
+
+15. What use does the API Product provide in Apigee 
+
+16. Which HTTPMethod would you use to update a single field of a complex object in a REST API?
+
+17. What policy can we use in the PostClient Flow?
+
+18. How do you stop the execution of a flow?
+
+19. Where can you use the FlowCallout in the API Proxy Flow?
+
+21. You want to make multiple calls in parallel to backend systems. What policy will allow you to do that?
+
+20. (MULTI) Which protocols can the Message Logging policy use?
+
+21. What is the best place to keep the Message Logging policy?
+
+22. Which policy is the best to increase TPS? 
+
+23. What are scopes in OAuth
+
+24. What are the policies that can be used to create a custom request for a Service Callout? (MULTI)
+
+25. What policy is used to validate a SOAP Message against a WSDL
+
+26. What is the best order of execution for the following policies: Spike Arrest, Quota, Concurrent Rate Limit?
+
+27. If the API should not exceed a quota, what configuration should be used?
+
+28. What policy is usd to restrict access based on the client's IP address?
+
+29. Where do you define Security in Swagger?
+
+30. Where do you host and version your API Documentation?
+
+31. Where do you define the Target Endpoint in the Proxy Configuration
+
+32. How do you declare different backend targets for each environment?
+
+33. Where in the flow should ResponseCache be placed
+
+34. What does continueOnError mean?
+
+35. What is the correct way to run a node.js app
+
+36. What is the execution strategy of the PostClientFlow flow
+
+37. What policy would be used to convert a SOAP message to a JSON object
+
+38. What policy is used to collect custom analytic data
+
+39. What part of the Microgateway Configuration is used to define the order of plugin execution 
+
+40. What must all Microgateway-Aware proxies be prefixed with
+
+41. What order do RouteRules evaluate in for the Proxy Endpoint
+
+
+
+43. In what order do Fault Rules evaluate in the Target Endpoint
+
+44. What section of the Proxy configuration contains the VirtualHost
+
+45. If there are two matching Conditional Routes in the ProxyEndpoint configuration, what will happen?
+
+46. Is it possible to return to the normal flow pipeline after entering the Error state?
+
+47. Will the DefaultFaultRule execute if a flow with this configuration enters the error state?
+
+			    <DefaultFaultRule name="default-fault">
+
+48. What would be covered in a Backlog Grooming session?
+
+49. What Plugin does not need to be explicitly stated in the Microgateway configuration
+
+50. What is the purpose of a Refresh token?
+
+51. Where do you configure the VirtualHost?
+
+52. Which URI is properly formed
+
+53. Which URIs are needed in order to be able to retrieve Orders by Customers and Orders that contain a Product ID
+
+54. You have a Cache set up and you find that your cache is being properly filled, however there are numerous cache misses and while the cache keys are still alive. What can you change to ensure that the cache is being properly utilized?
+
+55. What variables are used to alter the session timeouts?
+
+56. If you have set up proxy chaining with a Quota that is applied to all the chained proxies and that quota is being exceeded sooner than desired, what can you do to stop exceeding the quota?
+
+57. What can be added to OAuth to add custom access token attributes?
+
+60. What can be added to a GenerateJWT policy to add custom attributes?
+
+61. A backend service would like metrics on the performance of their API. What metrics should you send them?
+
+62. How would you raise a fault from a Javascript policy
+
+63. What are the policies used in a SOAP-to-REST response conversion?
+
+64. <SpikeArrest continueOnError="false" enabled="true">
+
+x 	The rate means you can only have 5 calls per second and the 6th call in a second will fail
+
+
+
+66. What does the DefaultFaultRule do?
+
+67. You are attempting to parse a JSON object, but the result is not what you were expecting. What should you do
+
+68. What configuration does the Edge Microgateway use to enforce OAuth
+
+69. How many times can an Authorization Code be used to generate an Access Token?
+
+70. How many times can an Access Token be used (until expired)?
+
+71. What should be used to hide sensitive data from being shown in the Trace debug tool?
+
+72. Customers exist in a database, and you want to be able to change a Customer to a "Deleted" status so that they can be deleted later. The customer should remain in the database until later deleted. What HTTP Verb approach should be used for this operation?
+
+73. Where can you set target.url
+
+74. How can you change the number of cache entries allowed in the Cassandra datastores
+
+75. You want to create an API to log out users by invalidating their OAuth tokens. You want to invalidate their access and refresh tokens.
+
+76. Where can you use a Flow Callout
+
+77. The operations team will be running bug testing all night. You wish to leave quickly. What can you do to quickly verify a complete deployment?
+
+78. Your project has recently begun. But you realize that there are regression bugs when pushing new code. What can you add to your CI/CD pipeline
+
+79. The Development team is having trouble with inconsistent naming. What can you do to help them?
+
+80. The development team is planning to push a proxy with a FlowCallout to a shared flow to production. How can you ensure the dependencies will be ready?
+
+81. You find that your team's code has security weaknesses and poor code practices. What can you do to ensure that your code is up to standards?
+
+82. On an existing product, you find an opportunity for a new feature. You want to bring this opportunity to the Product Owner. What should you present him?
+
+83. What is the API Key used for
+
+84. How should you make calls to the Management API
+
+85. What variables are commonly set in the Raise Fault policy
+
+86. What are the configuration elements for Inbound HTTPS
+
+87. What are the properties of a refresh token
+
+88. Encrypted KVM values are accessed in a KVMOperations policy. Where are the encrypted values accessible?
+
+89. Where is the only place that node.js targets can be declared
+
+90. You need two endpoints: one that can retrieve a list of orders related to a customer, and another that searches for orders that contain a product name. What two endpoints satisfy those requirements?
+
+91. Your APIs are configured as a relying party on an OpenID Connect platform. You need to inspect and verify the OpenID Connect Identity. What two actions should you take? (Choose 2) 
+
+92. You want to expose the data and services of a backend service. According to Apigee best practices, what should you do first?
+
+93. What is NOT enabled by default in the EdgeMicrogateway?
+
+94. You have a 2-way TLS set up with a backend service. Your backend's TLS certificates have expired. The security team gives you an Apigee TLS Certificate and the backend's PEM file. What do you do with the files
+
+95. You are tasked with creating an API to edit configuration of backend data. This API will consist of a single API call. What verb should be used for this API?
+
+96. You have a backend system with 2 datacenters in a Hot/Warm configuration. How should you set up a proxy to handle load balancing between the two, setting up the Warm datacenter as a fallback
+
+97. You have multiple target endpoints. How do you set up balancing between the different targets
+
+98. You have a proxy that is used in multiple API Products. You want to set up a Custom Quota for the products depending on the day of the week.
+
+99. What provides access to groups of API Proxies
+
+100. Your API experiences unexpected increases in traffic. What should you implement into your proxy?
+
+101. What is true for Microgateway proxies?
+
+102. You find that a Conditional Flow is not being hit when you expect it to. The condition is correct. What do you do to ensure that the conditional flow executes
+
+103. If there are no matching Proxy Conditional Flows, what will happen?
+
+104. What are NOT aspects of the Authorization Code grant type
+
+105. What are NOT metrics that are analyzed by Apigee
+
